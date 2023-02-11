@@ -1,0 +1,27 @@
+.products {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0 0;
+   
+    .mainFilters{
+      ul{
+        
+        li{
+          display: inline-block;
+          margin: 0 5px;
+          list-style-type: none;
+        
+          
+        }
+      }
+    }
+  
+    
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .product {
+      width: 100%;
+    }
+  }

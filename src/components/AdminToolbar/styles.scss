@@ -1,0 +1,51 @@
+.adminToolbar {
+   
+    width: 30rem;
+    background-color:#009dff;
+    border-radius: 1rem;
+    height: 3rem;
+    margin: 1rem;
+    padding: 0;
+
+    .wrap{
+        position: relative;
+        height: 100%;
+        max-width: 1450px;
+        margin: 0 auto;
+
+        ul,ul li {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    
+        ul{
+            float: right;
+           
+           li{
+            display: inline-block;
+            margin: 0 1rem;
+            list-style-type: none;
+               
+               a{
+                  display: block;
+                  font-size: 1.5rem;
+                  line-height: 3rem;
+                  color:#fff;
+                  padding: 0;
+                  transition: all .4s ease-in-out;               
+                  text-decoration: none;
+                  text-transform: uppercase;
+                  cursor: pointer;
+                   
+    
+                  &:hover{
+                     text-decoration: underline;
+                      transition: all .4s ease-in-out;    
+                  }
+               }
+           }
+        }
+    }
+  
+}

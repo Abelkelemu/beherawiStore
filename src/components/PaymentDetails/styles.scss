@@ -1,0 +1,164 @@
+.paymentDetails {
+    display: block;
+    width: 100%;
+    max-width: 100.0rem;
+    padding: 0;
+    margin: 10rem auto;
+  
+    .group {
+      margin: 0 0 2rem;
+
+    h2{
+        font-size: 2.2rem;
+        line-height: 1;
+        font-weight: 400;
+        text-transform: uppercase;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 4rem;
+        margin-top: 3rem;
+    }
+
+    .paymentradio{
+
+        display: block;
+        text-transform: uppercase;
+        font-weight: 400;
+        
+
+    }
+    
+    }
+  
+  }
+
+
+
+  .group
+  {
+    
+  .cartItem {
+    margin: 5rem auto;
+    margin-bottom: 10px;
+    margin-top: 2px;
+
+    td img {
+      display: block;
+      width: 100%;
+      height: 200px;
+    }
+    .productName{
+      font-weight: bold;
+    }
+
+    .condition{
+      margin-bottom: 0;
+    }
+
+    .delete{
+      display: none;
+    }
+
+    .cartBtn {
+      display: none;
+    }
+
+    .price{
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+    .amount{
+      margin-bottom: 0;
+      
+    }
+     td img {
+      display: block;
+      width: 100%;
+    
+    }
+    
+  }
+}
+
+  .cartItem {
+    background-color:#EAEDED;
+    
+  }
+  
+ 
+
+  .group  td {
+    
+   display: block;
+    width: 100%;
+  }
+
+  .shippingSummary{
+    margin: 2rem;
+    background-color:#EAEDED;
+    width: 100%;
+    padding: 1rem;
+    p{
+      margin: 0.5rem;
+    }
+
+  }
+
+  .itemSummary{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin: 0rem 2rem;
+    .wrap{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 1rem -10px 0;
+    }
+    .itemsList{
+      width: 50%;
+      margin: 0;
+      padding: 0;
+
+      td {
+        width: 300px;
+        
+      }
+
+
+
+      
+    }
+    
+     
+  }
+
+  
+
+  .amountSummary{
+    background-color: #EAEDED;
+    padding: 1rem;
+
+  }
+
+  .priceOnTheRight{
+    float: right;
+  }
+
+ 
+
+  @media only screen and (max-width: 980px){
+    .itemSummary{
+      .itemsList{
+        width: 50%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 700px){
+    .itemSummary{
+      .itemsList{
+        width: 100%;
+      }
+    }
+  }

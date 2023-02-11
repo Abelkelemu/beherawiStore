@@ -1,0 +1,166 @@
+
+.checkout {
+  margin: 5rem auto;
+
+ .checkoutTitle{
+    
+    h1 {
+    display: block;
+    width: 100%;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    text-align: left;
+    font-weight: bold; 
+  }
+ }
+  
+  p{
+    text-align: center;
+  }
+
+  .cart {
+    max-width: 101.0rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color:#EAEDED;
+
+    table {
+      width: 100%;
+    }
+  }
+
+  .cart {
+    width: 100%;
+    text-align: left;
+
+     .totalCart{
+       font-weight:bold;
+       margin: 1rem auto;
+     }
+    th,
+    td {
+      width: 22%;
+    }
+  }
+
+  .cartItem {
+    background-color:white;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    td img {
+      display: block;
+      width: 100%;
+      height: 200px;
+    }
+    .productName{
+      font-weight: bold;
+    }
+    .condition{
+      margin-bottom: 2rem;
+    }
+    .delete{
+      margin-top: 6rem;
+    }
+    .price{
+      margin-bottom: 2rem;
+      font-weight: bold;
+    }
+    .amount{
+      margin-bottom: 11rem; 
+    }
+  }
+
+  .cartBtns {
+    display: block;
+    width: 100%;
+  }
+
+  .cartBtn {
+    cursor: pointer;
+    background: rgb(189, 183, 183);
+    border: 1px solid black;
+    padding: 0.5rem ;
+
+    &:hover{
+      background: white;
+    } 
+  }
+  
+  .cartBtnDelete{
+     cursor: pointer;
+     color: red;
+     &:hover{
+       color:  #0076bd;
+     }
+  }
+
+  .quantity{
+    background: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0.5rem ;
+  }
+}
+.pricesOnTheRight{
+
+  float: right;
+}
+
+
+@media only screen and (max-width: 980px) {
+
+  .checkout
+  .cartItem {
+    margin-bottom: 2px;
+    margin-top: 2px;
+
+   
+    .productName{
+      font-weight: bold;
+    }
+
+    .condition{
+      margin-bottom: 0;
+    }
+
+    .delete{
+      margin-top: 5px;
+    }
+    .price{
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+    .amount{
+      margin-bottom: 0;    
+    }
+  
+    td img {
+      display: block;
+      width: 300px;
+      height: 250px;
+    }
+  }
+
+  .checkout .cart td {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+
+  .checkout
+  .cartItem {
+    td img {
+      display: block;
+      width: 100%;
+      height: 200px;
+    }
+  }
+  .checkout .cart td {
+    display: block;
+    width: 100%;
+  }
+ 
+}

@@ -1,0 +1,56 @@
+.sellerHeader {
+    height: 5.5rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    background-color: #0076bd ;
+  
+    .sellerWrap {
+      position: relative;
+      height: 100%;
+      max-width: 1450px;
+      margin: 0 aut0;
+
+
+      .sellerCallToActions{
+          
+        position: absolute;
+        top: 40%; left: 10px;
+        -webkit-transform: translateY(-40%);
+        -moz-transform: translateY(-40%);
+        transform: transslateY(-40%);
+
+        ul, li {
+          margin: 0;
+          padding: 0;
+        }
+
+        li{
+           display: inline-block;
+           list-style-type: none ;
+           margin-right: 1.5rem;
+
+          
+
+           a{
+              font-size: 1.8rem;
+              line-height: 1;
+              color: black;
+              text-decoration: none;
+              text-transform: uppercase;
+              cursor: pointer;
+
+              &:hover{
+                border: 2px solid #d0d0d0;
+                border-radius: 2px;
+
+                height: 4rem;
+                transition: all .4s ease-in-out;
+              } 
+           }
+
+
+        }
+
+      }
+    }
+
+}

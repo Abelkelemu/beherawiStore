@@ -1,0 +1,14 @@
+.loadMore{
+    max-width: 150px;
+    margin: 0 auto;
+    Button{
+        color: black;
+        background-color: white;
+        border: 1px solid black;
+        
+
+        &:hover{
+            background-color: whitesmoke;
+        }
+    }
+}

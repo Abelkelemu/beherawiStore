@@ -1,0 +1,153 @@
+.directory {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin: 2rem 0;
+    
+    .slogan{
+        background-color: #EAEDED ;
+        padding: 4rem;
+        margin: 5rem;
+        border-radius: 4rem;
+        text-align: center;
+        font-size: 8rem;
+        font-weight: bold;
+    }
+
+    // .directorySignIn{
+      
+    //     .authWrapper{
+    //         display: block;
+    //         width: 100%;
+    //         max-width: 22.0rem;
+    //         margin: -6rem auto 0rem;
+    //         border: none;
+    //         // border: 1px solid black;
+    //         // border-radius: 1rem;
+    //         .wrap{
+    //             padding: 10px; 
+
+    //             h2 {
+    //                 display: none;
+    //                }
+
+    //         .children{
+    //             // border: 1px solid black;
+    //             background-color: #EAEDED ;
+    //             border-radius: 1rem;
+               
+                
+              
+        
+    //           .formInput{
+    //               padding: 1rem;
+                
+    //           }
+              
+    //           .logInBtn{
+    //              padding: 1rem;
+    //           }
+    //         }
+    //         }
+    //     }
+
+       
+        
+    // }
+
+    .wrap {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 3rem -10px 0;
+    }
+}
+
+.directoryPreview{
+    cursor: pointer;
+    width: 25%;
+    margin: 0 auto 8rem;
+    padding: 2rem 2rem; 
+    background-color: #EAEDED;
+    border-radius: 2rem;
+
+    .title{
+        
+            text-align: center;
+            font-weight: bold;
+            font-size: 2rem;   
+    }
+
+    .description{
+        text-align: center;
+        font-size: 1.7rem;
+        p{
+            padding: 0;
+            padding-top:1rem;
+            margin: 0;
+        }
+    }
+
+    .thumb{
+        img{
+            display: block;
+            border-radius: 2rem;
+            width: 100%;
+            height: 200px;
+            margin: 0;
+            
+        }
+    }     
+}
+
+@media only screen and (max-width: 980px){
+    .directoryPreview{
+        width: 33.33333333333333%;
+    }
+}
+
+
+@media only screen and (max-width: 800px){
+    .directoryPreview{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .directoryPreview{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .directory{
+        .slogan{
+            margin: 0;
+            margin-top:4rem;
+            margin-bottom: 4rem;
+            font-size: 5rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .directory{
+        .slogan{
+            margin: 0;
+            margin-top:4rem;
+            margin-bottom: 4rem;
+            font-size: 3rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 580px){
+    .directory{
+        .slogan{
+            padding: 2rem;
+            margin: 0;
+            margin-top:1rem;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;         
+        }
+    }
+}

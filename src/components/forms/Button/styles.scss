@@ -1,0 +1,24 @@
+.btn {
+    display: block;
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+    background:#0076bd;
+    padding: 1rem 10px;
+    margin: 0 auto;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1rem;
+
+    &:hover{
+      background:  #003953;
+      transition: all .4s ease-in-out;
+    }
+
+    
+    
+  }

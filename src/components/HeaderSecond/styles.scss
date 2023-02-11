@@ -1,0 +1,158 @@
+.wrapper{
+  height: 6rem;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+
+  .container .input{
+    outline: none;
+  }
+  
+  .searchWrap{
+    width: 70rem;
+    margin: 0 auto;
+    padding-top: 10px;
+    
+  
+    .searchBox{
+      position: relative;
+      width: 70rem;
+      height: 4rem;
+  
+      .input{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height: 100%;
+        padding: 10px 20px;
+        border-radius: 1.5rem;
+        font-size: 18px;
+        
+
+
+      }
+  
+      .searchBtn{
+        position: absolute;
+        top:0;
+        right:0;
+        width: 60px;
+        height: 100%;
+        background-color: #0076bd;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        z-index: 1;
+        cursor: pointer;
+       
+  
+        &:hover{
+          background-color: #00568b ;
+          
+        }
+  
+        button{
+          border: none;
+          padding: .7rem;
+          border-radius: 3rem;
+        }
+  
+        .fas{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          background-color: #0076bd;
+          font-size: 2.5rem;
+          
+  
+        }
+      }
+   
+    }
+  
+  
+  }
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+  .wrapper{
+  height: 6rem;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+
+  .container .input{
+    outline: none;
+  }
+  
+  .searchWrap{
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+    
+  
+    .searchBox{
+      position: relative;
+      width: 100%;
+      height: 4rem;
+  
+      .input{
+        position: absolute;
+        top:0;
+        left:0;
+        // width:100%;
+        height: 100%;
+        padding: 10px 20px;
+        border-radius: 1.5rem;
+        font-size: 18px;
+        
+
+
+      }
+  
+      .searchBtn{
+        position: absolute;
+        top:0;
+        right:0;
+        width: 60px;
+        height: 100%;
+        background-color: #0076bd;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        z-index: 1;
+        cursor: pointer;
+       
+  
+        &:hover{
+          background-color: #00568b ;
+          
+        }
+  
+        button{
+          border: none;
+          padding: .7rem;
+          border-radius: 3rem;
+        }
+  
+        .fas{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          background-color: #0076bd;
+          font-size: 2.5rem;
+          
+  
+        }
+      }
+   
+    }
+  
+  
+  }
+}
+
+  
+}

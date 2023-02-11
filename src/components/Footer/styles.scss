@@ -1,0 +1,90 @@
+.footer {
+  background-color: #0076bd;
+  margin-top: 10rem;
+    .footerWrap {
+      max-width: 1450px;
+     
+      .copyright{
+        text-align: center;
+        padding: 20px 10px;
+        color: black;  
+      }
+      
+      .privacyPolicy{
+       
+        ul, li{
+            
+          padding-left: 1rem;
+         
+        }
+            
+        li{
+          display: inline-block;
+         list-style-type: none ;
+         margin: 0 auto;
+         
+          a{
+              color: white;
+              margin: 0 auto;
+
+              &:hover{
+                color:black;
+              }
+          }
+        }
+
+      }
+
+      .contactUs{
+        text-align: left;
+
+        ul, li{
+          &:first-child{
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin-bottom: 1rem;
+          }  
+        }
+
+        li{
+          display: inline-block;
+         list-style-type: none ;
+         margin-top: 15px;
+        }
+      }
+
+      .socialMedia{
+        text-align: left;
+        
+          ul, li{
+            
+            padding-left: 1rem;
+            margin-bottom: 1rem;
+          }
+        
+          li{
+            display: inline-block;
+           list-style-type: none ;
+           margin: 15px;
+           
+            &:first-child{
+              display: block;
+              margin: 0;
+              padding-bottom: 1rem;
+            }
+           
+            a{
+                color: white;
+                // border: 1px solid black;
+                font-size: 3rem;
+                padding: 5px;
+
+                &:hover{
+                  color:black;
+                }
+            }
+          }
+      }
+
+    }
+}

@@ -1,0 +1,13 @@
+.formWrap{
+    margin: 3rem auto 0;
+}
+
+.notice{
+    font-size: 1.6rem;
+    a{
+        color: #0076bd;
+        &:hover{
+            color: blue;
+        }
+    }
+}
