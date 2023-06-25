@@ -66,7 +66,7 @@ const SignInWithPhoneNumber = props => {
         setLogInBtn("Loading...");
         configureCaptcha(onSignInSubmit)
         
-        const mobile = "+251" + phoneNumber.slice(1)
+        const mobile = "+1" + phoneNumber.slice(1)
         const appVerifier = window.recaptchaVerifier;
         firebase.auth().signInWithPhoneNumber(mobile, appVerifier)
             .then((confirmationResult) => {
@@ -79,7 +79,7 @@ const SignInWithPhoneNumber = props => {
                 
             })
             .catch((error) => {
-               setErr(error)
+               setErr("Please, try again.")
                setLogInBtn('LogIn')
                setPhoneNumber('')
             
@@ -136,7 +136,7 @@ const SignInWithPhoneNumber = props => {
                               name= "phoneNumber"
                               value = {phoneNumber}
                               required
-                              placeholder = "Example 0911555555"
+                              placeholder = "Example +6415555555"
                               handleChange= {e => setPhoneNumber(e.target.value)}
                             />
 

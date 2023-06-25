@@ -17,7 +17,8 @@ import Button from '../forms/Button';
 
 
 const mapState = ({user}) => ({
-    currentUser: user.currentUser
+    currentUser: user.currentUser,
+   
 });
 
 const SignIn = props => {
@@ -27,6 +28,7 @@ const SignIn = props => {
     const {currentUser} = useSelector(mapState)
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+   
 
 
     useEffect(()=> {
@@ -36,10 +38,12 @@ const SignIn = props => {
         }
     }, [currentUser]);
 
+    
 
     const resetForm = () => {
         setEmail('');
         setPassword('');
+      
     };
 
     const handleSubmit = e => {
@@ -59,8 +63,9 @@ const SignIn = props => {
             
             <AuthWrapper {...configAuthWrapper}> 
 
+                  
                     <div className="formWrap">
-                        
+
                         <form onSubmit= {handleSubmit}>
 
                             <FormInput

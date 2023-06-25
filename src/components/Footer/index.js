@@ -17,7 +17,7 @@ const Footer = props => {
             </li>
 
             <li>
-              +251 929 451813 |
+              +16412339905 |
             </li>
 
             <li>
@@ -35,6 +35,11 @@ const Footer = props => {
 
             <li>
               Connect With Us
+            </li>
+            <li>
+            <a href="https://wa.me/+16412339905">
+            <i class="fab fa-whatsapp"></i>
+            </a>
             </li>
 
             <li>
@@ -57,11 +62,7 @@ const Footer = props => {
               </Link>
             </li> */}
             
-            <li>
-            <a href="https://wa.me/+33749671000">
-            <i class="fab fa-whatsapp"></i>
-            </a>
-            </li>
+            
 
           </ul>
                       
@@ -91,8 +92,8 @@ const Footer = props => {
         
         <Link to="/">
           <div className="copyright" >
-          <p>Designed by Easy IT Solutions (+251 946725729)</p> 
-          © 2021 Beherawi.com
+          <p>Designed by Abel K Dessalegne (+16412339905)</p> 
+          © 2021 Beherawi
           </div>
         </Link>
     
